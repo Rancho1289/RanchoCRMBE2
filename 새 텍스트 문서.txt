@@ -1,0 +1,24 @@
+작성자 정보도 같이 task에 저장하고 싶다.
+
+Task
+_id
+task
+isComplete
+author (ref: User, _id)
+
+User
+_id
+name
+email
+password
+
+
+'밥먹기', false A01
+
+
+A01, Rancho, Rancho@gmail.com 123
+
+01. 테이블, (컬렉션)의 컬럼을 추가한다. Author
+	01_1 현재 로그인한 유저가 누군지 로그인 유저정보를 알아야 한다.
+02. 할일 생성시 Author값을 추가한다.
+03. 프론트엔드는 작성자 이름도 함께 보여준다.

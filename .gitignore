@@ -1,0 +1,10 @@
+# Node
+node_modules/
+logs/
+*.log
+*.tmp
+.DS_Store
+.env
+.env.*
+uploads/
+user-profile/
