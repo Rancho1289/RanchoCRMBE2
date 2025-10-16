@@ -8,7 +8,7 @@ const {
   deleteNews,
   hardDeleteNews,
   getLatestNews
-} = require('../controllers/News.controller');
+} = require('../controllers/News.Controller');
 const auth = require('../middleware/auth');
 
 // 뉴스 생성 (인증 필요)
